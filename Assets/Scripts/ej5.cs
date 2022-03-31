@@ -14,7 +14,7 @@ public class ej5 : MonoBehaviour {
     // Use this for initialization
     void Start ()
     {
-        int resultado = num1 / num2;
+        
         
         if (num2 == 0)
         {
@@ -22,6 +22,7 @@ public class ej5 : MonoBehaviour {
         }
         else
         {
+            int resultado = num1 / num2;
             Debug.Log(num1 + " / " + num2 + " = " + resultado);
         }
         
